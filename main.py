@@ -1,7 +1,6 @@
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
-import httpx
 
 app = FastAPI(title="Niche Perfume Price Tracker")
 
